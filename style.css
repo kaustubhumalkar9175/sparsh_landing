@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Baloo 2", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.sec-1 {
+  background-color: #00a1e3;
+}
+
+.sec-1 h1 {
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.sec-2 {
+  text-align: center;
+  padding: 10px;
+}
+
+.sec-3 {
+  background-color: #d6e8ed;
+  padding: 10px;
+}
+.gem{
+  width: 50%;
+}
+
+@media(max-width: 991px){
+  .gem{
+    width: 100% !important;
+  }
+}
+.sec-3 h3 {
+  color: #1f4a99;
+}
+
+.sec-4 {
+  text-align: center;
+  padding: 10px;
+  text-transform: capitalize;
+}
+
+.sec-4 img {
+  padding: 30px;
+}
+
+.box {
+  background-color: #dee7f6;
+  height: 100px;
+}
+
+.box-1 {
+  background-color: #585455;
+  height: 100px;
+}
+
+.sec-5 {
+  background-color: #d6e8ed;
+  padding: 10px;
+}
+
+.sec-5 h3 {
+  color: #1f4a99;
+}
+.sec-5 h2 {
+  color: #5c5c5c;
+}
+
+.sec-5 img {
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  width: 100%;
+}
+
+.sec-6 {
+  background-color: #d6e8ed;
+  padding: 10px;
+}
+
+.sec-6 h2 {
+  color: #1f4a99;
+  text-align: center;
+}
+
+.sec-6 img {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* X-offset, Y-offset, blur, color */
+  border-radius: 4px;
+  padding: 10px;
+  width: 100%;
+}
+
+.sec-7 {
+  background-color: #d6e8ed;
+  padding: 10px;
+}
+
+.sec-7 h2 {
+  color: #1f4a99;
+  text-align: center;
+}
+
+.sec-8 {
+  background-color: #d6e8ed;
+  padding: 10px;
+}
+
+.sec-8 h2 {
+  color: #1f4a99;
+  text-align: center;
+}
+
+button {
+  background-color: #1f4a99;
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px
+}
+.cta {
+  background-color: #1f4a99;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  width: 50%;
+}
+
+.table {
+  margin-top: 20px;
+}
+
+table {
+  margin-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 761px) {
+  img {
+    width: 100%;
+  }
+}
+
+td {
+  background: #cfe6ea;
+  font-weight: 600;
+  padding: 10px;
+  border: 1px solid #000000;
+}
+
+.tableheading {
+  border: 1px solid black;
+  padding: 5px;
+  background: #cfe6ea;
+}
